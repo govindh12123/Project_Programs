@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product sorting & Filtering</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <h1>Product sorting & Filtering</h1>
+    <div class="controls">
+        <select  id="sortselect"  aria-label="sort products">
+            <option value="priceAsc">Price : low to high</option>
+            <option value="priceDesc">Price : high to low</option>
+            <option value="nameAcs">Name : A to Z</option>
+            <option value="nameDesc">Name : Z to A</option>
+            <option value="ratingAcs">Rating : low to high</option>
+            <option value="ratingDesc">Rating : high to low</option>
+            <option value="stockAsc">Stock : low to high</option>
+            <option value="stockDesc">Stock : high to low</option>
+        </select>
+         </div>
+         <button data-category="all" class="category-btn active">All</button>
+         <button data-category="electronics" class="category-btn">Electronics</button>
+         <button data-category="accessories" class="category-btn">Accessories</button>
+         <button data-category="wearables" class="category-btn">Wearables</button>
+         </div>
+    </div>
+    <div></div>
+</body>
+</html>
