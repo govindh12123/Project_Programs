@@ -37,3 +37,53 @@ button.active{
     color: white;
     border-color: rgb(209, 117, 209);
 }
+
+#productGrid{
+    max-width: 800px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap:20px;
+}
+
+.product-card{
+    background: white;
+    border-radius: 8px;
+    box-shadow: 8px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: box-shadow 0.3s;
+}
+
+.product-card:hover{
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15)
+}
+
+.product-name{
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.product-category{
+    font-size:0.9em;
+    color: #555;
+}
+
+.product-price{
+    font-size: 1.1em;
+    color: #008000;
+    font-weight: bold;
+}
+
+.product-rating{
+    color: antiquewhite;
+    font-weight: 600px;
+}
+
+.product-stock{
+    font-size: 0.9em;
+    margin-top: auto;
+}
